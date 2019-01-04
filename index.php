@@ -54,7 +54,7 @@ require_once('includes/templates/header.php');
     function sendTx(btn) {
         var txid = $('#txid').val();
         if (txid.length != 64)
-            $("div.message").html('<p>The transaction ID is invalid!</p>').show();
+            $("div.message").html('<p align="center">The transaction ID is invalid!</p>').show();
         else {
             btn.attr('disabled', 'disabled');
             btn.html('Loading...');
