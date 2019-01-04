@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: url("../img/header.png") center center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav a {
+    color: #FFF;
+    transition: all .2s ease;
+}
+
+nav a:hover {
+    color: #e2e2e2
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav li.donate a {
+    border-radius: 5px;
+    border: 3px solid #FFF;
+    padding: 10px 15px;
+    color: #ffffff;
+    margin-top: 3px;
+}
+
+.nav li.donate a:hover {
+    color: #282828
+}
+
+.navbar-nav, .navbar-header{
+    margin: 20px 0;
+}
+
+header .center {
+    margin: 100px 0;
+}
+
+header h1 {
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+}
+
+header .form-group {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+header input[type="text"] {
+    padding: 20px 30px;
+    border: none;
+    height: auto;
+}
+
+header input[type="text"]:focus {
+    box-shadow: none;
+    transition: all .2s ease;
+    background-color: #ececec;
+}
+
+header .btn {
+    background-color: #D52020;
+    padding: 20px 0px;
+    width: 100%;
+    color: #FFF;
+    transition: all .2s ease;
+}
+
+header .btn:hover, header .btn:focus {
+    color: #FFF;
+    background-color: #bb1b1b;
+}
+
+.intro {
+    padding: 100px 0;
+}
+
+.intro h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.intro p {
+    line-height: 30px;
+}
+
+.table  {
+    margin: 50px 0;
+}
